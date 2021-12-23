@@ -1,0 +1,122 @@
+body {
+    font-family: Montserrat;
+}
+.navbar {
+    display: flex;
+    width: 1910px;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo {
+    padding-left: 369px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.kyiv {
+    font-weight: 700;
+
+}
+.notkyiv {
+    display: inline-block;
+    color: #9E0031;
+    padding-top: 5px;
+    font-weight: 700;
+
+}
+.towandtext{
+    padding-top: 8px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+}
+.p1 {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #222222;
+
+}
+.services{
+    font-weight: bold;
+}
+.townnumber{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #B8B8B8;
+}
+.numbers{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    padding-right: 349px;
+    margin-left: 20px;
+}
+.secondnumber {
+    display: inline-block;
+    padding-left: 39px;
+    padding-top: 5px;
+}
+.home   {
+    display: flex;
+    background-image: url("/images/Rectangle 2.png");
+    width: 1910px;
+    height: 775px;
+    flex-direction: column;
+
+}
+h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    padding-left: 349px;
+    padding-top: 50px;
+
+}
+.withimg {
+margin-top: -18px;
+    padding-left: 349px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+.spanhome {
+    display: inline-block;
+    padding-left: 11px;
+}
+.about {
+    width: 250px;
+    height: 70px;
+    background: #9E0031;
+    border: 1px solid #DB225B;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px rgba(158, 0, 49, 0.2);
+    border-radius: 6px;
+    margin-left: 349px;
+    margin-top: 40px;
+}
+.aboutspan {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.windows {
+    position: absolute;
+    height: 180px;
+    padding-top: 730px;
+   padding-left: 100px;
+}
+
+.ha {
+    margin-top: 300px;
+}
