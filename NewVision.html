@@ -13,8 +13,8 @@
 <div class="header">
     <div class="navbar">
         <div class="logo"><img src="./images/logo.png" alt="logoimg"></div>
-        <p class="towandtext">Ваш город - <a href="#"><span class="kyiv">Киев?</span></a><br>
-            <a href="#"><span class="notkyiv">Нет? Укажите свой город</span></a></p>
+        <p class="towandtext">Ваш город - <a href="#"id="geo"><span class="kyiv">Киев?</span></a><br>
+            <a href="map.html"><span class="notkyiv">Нет? Укажите свой город</span></a></p>
         <p class="p1"><a href="#"><span class="services">Услуги</span></a></p>
         <p class="p1"><a href="#">Отзывы</a></p>
         <p class="p1"><a href="#">Цены</a></p>
@@ -31,13 +31,22 @@
         <div class="windows"><img src="images/windows.png" alt="miniwindowsimg"></div>
     </div>
     <h2 class="discount">Запишитесь прямо сейчас, получите <br> <span class="discountspan">скидку 10%</span> на диагностику зрения</h2>
+    <div class="pform"><p class="inputname">Введите имя</p>
+        <p class="inputtel">Введите номер</p>
+        <p class="inputsearch">Выберите ближайший центр «Новий Зір»</p>
+    </div>
     <form action="#">
         <input type="text" class="inputs">
-        <input type="tel" class="inputs"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
-
-        <select name="adres" id="selecttown" class="inputs"></select>
+        <input type="text" placeholder="         (+380) ___ __ __" class="inputs"  pattern=""required>
+        <select name="adres" id="selecttown" class="inputs selectinput"></select>
+       <button class="signupbutton"><span class="btnspan">Записаться</span>
+            <div><img src="/images/Vector.png" class="pensil" alt="pencilbtn"></div></button>
     </form>
 </div>
+
+
+
+
 
 <script src="NewVision.js"></script>
 </body>
