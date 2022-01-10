@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
@@ -20,7 +20,13 @@
         <p class="p1"><a href="#">Отзывы</a></p>
         <p class="p1"><a href="#">Цены</a></p>
         <p class="p1"><a href="#">Контакты</a></p>
-        <p class="townnumber">Городской номер <span class="numbers">0 800 330-123</span> <br>Мобильный <span class="numbers secondnumber">0 800 330-123</span></p>
+        <div class="numoftell"><p class="townnumber">Городской номер <span class="numbers">0 800 330-123</span> <br>Мобильный <span class="numbers secondnumber">0 800 330-123</span></p></div>
+        <div class="divmenu"><span class="divspanmedia"></span></div>
+    </div>
+    <div class="mediabackground">
+        <img src="images/mediaimg2.png" alt="mediaimg">
+        <h1 class="mediah1">Сеть оптик «Новий зір» </h1>
+        <p class="mediap">Наша миссия - помочь людям видеть лучше. Работая в сфере офтальмохирургии с 2004 года, мы приняли решение расширить спектр услуг. Так, в 2007 году открылась первая оптика Новий Зір. Сегодня в наших оптиках вы сможете пройти диагностику зрения, получить квалифицированную консультацию, подобрать очки и линзы. Кто, как не мы, профессионально позаботимся о вашем зрении.</p>
     </div>
     <div class="home">
         <h1>Офтальмологический <br>
@@ -36,7 +42,7 @@
         <p class="inputtel">Введите номер</p>
         <p class="inputsearch">Выберите ближайший центр «Новий Зір»</p>
     </div>
-    <form action="#">
+    <form class="input" action="#">
         <input type="text" class="inputs">
         <input type="text" placeholder="         (+380) ___ __ __" class="inputs"  pattern=""required>
         <select name="adres" id="selecttown" class="inputs selectinput"></select>
@@ -76,3 +82,4 @@
 <script src="NewVision.js"></script>
 </body>
 </html>
+

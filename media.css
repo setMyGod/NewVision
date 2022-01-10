@@ -1,4 +1,66 @@
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 360px) {
+    p.towandtext {
+        display: none;
+    }
+
+    p.p1 {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+    .mediabackground{
+       display: block;
+        width: 360px;
+        height: 563.69px;
+        left: 0px;
+        top: 57.5px;
+        background: linear-gradient(101.15deg, rgba(43, 47, 58, 0.8) 21.24%, rgba(43, 47, 58, 0) 125.52%)
+
+
+    }
+
+    .divmenu {
+        display: flex;
+
+
+
+    }
+
+    .navbar{
+        width: 360px;
+    }
+    .home{
+        display: none;
+    }
+    h2.discount{
+        display: none;
+    }
+    .windows{
+        display: none;
+    }
+    .pform{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .ourskills{
+        display: none;
+    }
+    .h3images{
+        display: none;
+    }
+    .h3paragraphs{
+        display: none;
+    }
+    .price{
+        display: none;
+    }
+    .header {
+        width: 653px;
+        height: 360px;
+    }
 
 }
-
