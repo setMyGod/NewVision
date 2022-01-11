@@ -9,9 +9,16 @@
 
     .logo {
         padding-left: 20px;
+
     }
+    .meidalogo{
+        width: 109px;
+        height: 40px;
+    }
+
+
     .mediabackground{
-       display: block;
+        display: block;
         width: 360px;
         height: 563.69px;
         left: 0px;
@@ -59,8 +66,68 @@
         display: none;
     }
     .header {
-        width: 653px;
-        height: 360px;
+        width: 360px;
+
     }
+    .nav__button{
+        display: flex;
+
+    }
+    .numoftell{
+        display: none;
+    }
+
+    .mediah1 {
+        display: flex;
+        position: absolute;
+        margin-top: -550px;
+        margin-left: -330px;
+    }
+    .mediap {
+        display: flex;
+        position: absolute;
+        margin-top: -380px;
+        margin-left: 20px;
+    }
+
+    .nummediamob{
+        display: flex;
+        margin-left: 60px;
+
+
+    }
+    .nummediatown{
+        display: flex;
+        margin-left: 60px;
+
+
+    }
+    .media span {
+        display: flex;
+        padding-right: 5px;
+
+
+    }
+    .media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .new1 {
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 85px;
+
+    }
+    .new2 {
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 85px;
+    }
+
+
+
+
+
 
 }
