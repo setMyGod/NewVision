@@ -26,7 +26,7 @@ a:hover{
 }
 .inputtel {
     font-family: HelveticaNeueCyr;
-    margin-left: 220px;
+    margin-left: 240px;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
@@ -41,7 +41,7 @@ a:hover{
     color: #B8B8B8;
 }
 .inputsearch{
-    margin-left: 200px;
+    margin-left: 260px;
     font-family: HelveticaNeueCyr;
     font-size: 16px;
     line-height: 16px;
@@ -109,7 +109,7 @@ h2 {
 }
 .navbar {
     display: flex;
-    width: 1910px;
+    width: 1900px;
     height: 80px;
     justify-content: space-between;
 }
@@ -171,7 +171,7 @@ h2 {
 .home   {
     display: flex;
     background-image: url("/images/Rectangle 2.png");
-    width: 1910px;
+    width: 1900px;
     height: 775px;
     flex-direction: column;
 
@@ -221,10 +221,9 @@ h1 {
 
 .windows {
     position: absolute;
-    height: 180px;
     padding-top: 730px;
     padding-left: 100px;
-    width: 1736px;
+    width: 1300px;
     height: 200px;
 }
 
@@ -244,7 +243,7 @@ body {
     padding: 0;
 }
 .ourskills {
-    font-family: HelveticaNeueCyr;
+
     font-style: normal;
     font-weight: bold;
     font-size: 48px;

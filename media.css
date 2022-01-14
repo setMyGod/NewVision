@@ -21,7 +21,6 @@
         display: block;
         width: 360px;
         height: 563.69px;
-        left: 0px;
         top: 57.5px;
         background: linear-gradient(101.15deg, rgba(43, 47, 58, 0.8) 21.24%, rgba(43, 47, 58, 0) 125.52%)
 
@@ -81,13 +80,32 @@
         display: flex;
         position: absolute;
         margin-top: -550px;
-        margin-left: -330px;
+        margin-left: -333px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 54px;
+        width: 326.84px;
+        height: 108px;
+        font-family: HelveticaNeueCyr;
+
+
+
+        color: #FFFFFF;
+
     }
     .mediap {
         display: flex;
         position: absolute;
         margin-top: -380px;
-        margin-left: 20px;
+        margin-left: 5px;
+        font-family: HelveticaNeueCyr;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 30px #000000;
     }
 
     .nummediamob{
@@ -126,9 +144,9 @@
     }
     .mediaimgtop{
         display: block;
+        width: 360px;
+        height: 660px;
     }
-
-
 
 
 
